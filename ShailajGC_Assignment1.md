@@ -107,6 +107,7 @@ Logical model for the above fact and dimension:
 `        `salary INT,
 
 `        `fte FLOAT
+          PRIMARY KEY(employee_id, department_id, manager_employee_id, date_id)
 
 `    `)
 
